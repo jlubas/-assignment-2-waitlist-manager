@@ -105,8 +105,7 @@ def waitlist_generator():
             name = input("Enter customer name to remove: ")
             # Call the remove method
             result = waitlist.remove(name)
-            if result == f"{name} not found":
-                print(result)
+            print(result)
 
         elif choice == "4":
         
